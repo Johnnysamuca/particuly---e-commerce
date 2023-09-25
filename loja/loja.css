@@ -1,0 +1,61 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    color: #ffff;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./imagem-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+#loja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    
+    
+    
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+
+}
+
+
+
+.icones{
+    padding: 0px;
+    margin: 10px;
+    
+}
+
+
+#loja{
+    
+    
+}
+
+#loja h1 {
+    margin-left: 0px;
+
+}

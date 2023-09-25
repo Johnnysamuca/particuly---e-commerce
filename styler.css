@@ -130,42 +130,7 @@
 
 
 
-#loja {
-    display: flex;
-    justify-content: space-between;
-    
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    
-    
-}
 
-#Home {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-}
-
-
-
-.icones{
-    padding: 0px;
-    margin: 15px;
-    
-}
-
-
-#loja{
-    padding: 20px 30px;
-    
-}
-
-#loja h1 {
-    margin-left: 20px;
-}
 
 
 
