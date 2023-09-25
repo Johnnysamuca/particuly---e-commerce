@@ -1,10 +1,9 @@
-*body{
-    margin: 0px;
-    padding: 0px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-body {
+   body {
 
     color: #ffff;
     font-family: 'Black Ops One', cursive;
@@ -16,27 +15,30 @@ body {
     background-size: cover;
     height: 100vh;
     margin-bottom: 0px;
-}
+    
+   
+    
+   }
 
-#loja {
+   #loja {
+    
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    background-color: black;
-    
-    
-    
-}
+    padding: 20px 30px;
+    width: 100%;
 
-#Home {
+   }
+
+#Home , a {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     text-decoration: none;
     color: white;
-    list-style: none;
+    
 
 
 }
@@ -56,6 +58,6 @@ body {
 }
 
 #loja h1 {
-    margin-left: 0px;
+    margin-left: 10px;
 
 }
