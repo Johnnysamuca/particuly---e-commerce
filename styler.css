@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   body {
+
+    color: #ffff;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./asset/imagem-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    
+   
+    
+   }
+
+   #Menu {
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+   
+    
+  
+   }
+
+   #Menu ul  , li {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+    
+   }
+
+   #Menu, ul, a{
+    color: #ffff;
+    
+   }
+
+.Botao :hover{
+    border: 1.5px solid;
+    background: grey;
+    padding: 4px;
+    border-radius: 5px;
+    
+
+}
+
+#tênis {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px ;
+   padding: 0px 20px 40px 20px;
+   background-color: black;
+   box-shadow:5px  5px 2px black; 
+}
+
+#tênis, img {
+    padding: 20px;
+    margin-right: 20px;
+    float: left;
+    
+}
+
+#logo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+
+
+
+#mvv {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 200px 20px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.missao {
+    
+    border: 2px solid red;
+    width: 340px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.visao {
+    
+    border: 2px solid orange;
+    width: 340px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.valores {
+    border: 2px solid blue;
+    width: 340px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    
+
+}
+
+
+
+#loja {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    
+    
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+.icones{
+    padding: 0px;
+    margin: 15px;
+    
+}
+
+
+#loja{
+    padding: 20px 30px;
+    
+}
+
+#loja h1 {
+    margin-left: 20px;
+}
+
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+
+    body{
+        height: 100%
+    }
+
+    
+
+    
+
+    .bem-Vindo{
+        display: none;
+    }
+    .Botao{
+        margin-right: 50px;
+        
+    }
+
+   #tênis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+    
+   }
+
+    
+        
+   #mvv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+   } 
+   
+   .missao{
+    margin-bottom: 20px;
+   }
+
+   .valores{
+    margin-top: 20px;
+   }
+
+   
+
+    
+    
+}
+
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+   body{
+    height: 100%;
+   }
+
+   #tênis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #mvv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+   }
+    
+   .missao{
+    margin-bottom: 20px;
+   }
+
+   .valores{
+    margin-top: 20px;
+   }
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+
+   body{
+   height: 100%;
+   }
+
+   #tênis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #mvv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+   }
+    
+   .missao{
+    margin-bottom: 20px;
+   }
+
+   .valores{
+    margin-top: 20px;
+   }
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+   body{
+    height: 100%;
+   }
+
+   #tênis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #mvv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+ 
+   
+ 
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    
+  body{
+    height: 100vh;
+  }
+
+  #tênis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px ;
+    padding: 0px 20px 40px 20px;
+    
+    background-color: black;
+     
+ }
+
+ #mvv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin: 200px 20px;
+    height: 400px;
+    padding: 20px;
+}
+
+
+  
+   }
+
+   .missao {
+    
+    border: 2px solid red;
+    width: 340px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.visao {
+    
+    border: 2px solid orange;
+    width: 340px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.valores {
+    border: 2px solid blue;
+    width: 340px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+
+/* Animação do logo*/
+
+@keyframes float{
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+   
+
+   
+
+   
+
+   
+   
+
+    
+    
+    
+
+  
+
+   
+
+    
+
+
+
+    
+
+
+
+

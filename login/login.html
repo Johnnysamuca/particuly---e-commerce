@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@400;500&family=Roboto:wght@400;700&display=swap');
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+   <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+  <nav id="menu">
+    <h1>particuly</h1>
+    <ul>
+      <li>
+        <a class="botao" href="http://127.0.0.1:5500/home.html"> loja</a>
+        <a class="botao" href="http://127.0.0.1:5500/loja.html">home</a>
+      </li>
+      
+    </ul>
+  </nav>
+
+  <header>
+    <h1 id="login">Login</h1>
+  </header>
+    
+<section>
+  <div>
+    <img id="user" width="64px" src="./icone-de-usuario.png" alt="">
+    <input type="email" name="ema" id="mail"  placeholder="  usuario@gmal.com">
+    <p id="erroE"></p>
+    
+    <input  type="password" name="sen" id="senha"  placeholder=" Senha de  6 digitos">
+    <a id="esqueceu"   href="#">Esqueceu sua senha ?</a>
+    <p id="erroS"></p>
+    <p id="lembrar"> lembrar nesse dispositivo   <input type="checkbox" name="box" id="check"></p>
+    
+    
+    <input id="entrar" type="button" value="Entrar" onclick="Entrar()">
+    <p id="cad">Ainda não estar cadrastrado ?  <a id="linkcad" href="#">Cadastra-se </a> </p>
+    
+  </div>
+</section>
+
+<footer>@copySamuel-Johnny</footer>
+
+<script src="./login.js"></script>
+</body>
+</html>
