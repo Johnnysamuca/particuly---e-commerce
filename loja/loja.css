@@ -50,6 +50,11 @@
     margin: 10px;
     
 }
+.icones:hover{
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 
 #loja{

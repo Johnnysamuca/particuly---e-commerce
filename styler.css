@@ -33,16 +33,18 @@
   
    }
 
-   #Menu ul  , li {
+  
+
+   #Menu, ul, a ,ul{
     display: flex;
     gap: 30px;
     list-style: none;
-    
-    
-   }
-
-   #Menu, ul, a{
     color: #ffff;
+    transition: background 0.2s;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    font-weight: 500px;
+    
     
    }
 
@@ -51,6 +53,9 @@
     background: grey;
     padding: 4px;
     border-radius: 5px;
+   
+
+    
     
 
 }
