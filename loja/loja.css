@@ -66,3 +66,39 @@
     margin-left: 10px;
 
 }
+
+#aba{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: rgb(126, 219, 207);
+    
+    gap: 5px;
+    padding: 8px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+
+.abas{
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 35px;
+    color: black;
+}
+
+
+.abas:hover{
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: grey;
+    padding: 5px;
+}
+
+
+
+
