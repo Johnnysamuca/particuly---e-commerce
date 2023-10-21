@@ -11,49 +11,54 @@
     <title>Loja particuly</title>
     <link rel="stylesheet" href="./loja.css">
 </head>
-<body>
-    <nav id="loja">
+<body onload="reset()">
+    <nav id="navegação">
         <h1>Particuly</h1>
         <h2>Pensando particularmente em você</h2>
         <ul id="Home">
-            <li><a style="text-decoration: none; " target="_blank" href="http://127.0.0.1:5500/home.html">Inicio</a></li> 
-            <img class="icones" src="./asset-loja/carrinho.png" alt="">
-            <img onclick="aba()" ondblclick="aparece()" class="icones" src="./asset-loja/barra.png" alt="">
+            <a href="http://127.0.0.1:5500/home.html">
+              <img class="icones" width="32px" height="32px"  src="./asset-loja/home.png" alt="">
+            </a>
+            <div  id="compra">
+                0
+            </div>
+            <img class = "icones" width="32px" height="32px" src="./asset-loja/carrinho2.png" alt="">
+            <img onclick="aba()" ondblclick="aparece()"  class="icones" src="./asset-loja/barra.png" alt="">
  
         </ul>
     </nav>
 
-    <div  id="aba">
+    <section  id="aba">
       <div class="abas">
-         Calças
+        <p>calças</p>
       </div>
 
       <div class="abas">
-         <p>Camisetas</p>
+        <p>camisas</p>
       </div>
 
       <div class="abas">
-        <p>Calçados</p>
+        <p>calçados</p>
       </div>
-    </div>
+    </section>
 
     <section>
       <div class="produto1">
       <img width = "280px" height="235px" src="./asset-loja/tenis1.png.jpg" alt=""> <br>
       <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-      <button>Comprar</button>
+      <button onclick="comprar()">Comprar</button>
       </div>
 
       <div class="produto2">
       <img width = "280px" height="232px" src="./asset-loja/tenis2.png.jpg" alt=""><br>
       <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-      <button>Comprar</button>
+      <button onclick="comprar()" >Comprar</button>
       </div>
 
       <div class="produto3">
         <img width = "280px" height="232px" src="./asset-loja/tenis3.png.jpg" alt=""> <br>
         <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-        <button>Comprar</button>
+        <button onclick="comprar()" >Comprar</button>
       </div>
 
       <div class="produto4">

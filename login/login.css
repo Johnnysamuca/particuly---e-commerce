@@ -8,7 +8,7 @@
     font-family: 'Black Ops One', cursive;
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-image:url(./imagem-de-fundo.jpg);
+   background-color: white;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -21,14 +21,13 @@
     padding: 20px 30px;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    color: black;
  }
 
  #menu ul li , a{
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: black;
     margin: 10px;
 
 }
@@ -38,76 +37,75 @@
     border-radius: 5px;
 }
 
+#area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 241, 45);
+    width: 900px;
+    height: 500px;
+    margin: 0px auto 30px;
+    box-shadow: 5px 5px black;
+    
 
-
-#login{
-    text-align: center;
-    color: white;
-    margin-top: 15px;
 }
  
-div{
+#login{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    background-image: linear-gradient(rgb(0, 183, 255),rgb(0, 128, 6));
+    justify-content: space-around;
+    background-color: violet;
     padding: 12px;
     gap: 5px;
     width: 400px;
-    height: 400px;
-    margin: 30px auto;
-    border-radius: 18px;
-    box-shadow: 5px 10px 2px black;
+    height: 500px;
+    color: white;
+}
+
+#titulo{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.877);
+    
 }
 
 #mail{
     width: 320px;
     height: 30px;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 14px;
     padding: 10px;
-    
-    
-    
+    border: 2px solid black;
+    border-radius: 5px;
 }
-
-#mail:hover{
-   
-   
-}
-
 
 #senha{
     width: 320px;
     height: 30px;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 14px;
     padding: 10px;
-    
-    
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
-
-
-#senha:hover{
-    
- }
 
 #entrar{
     width: 100px;
     height: 30px;
     border-radius: 8px;
-    
+    border: 2px solid black;
 }
 
 #entrar:hover{
-    background-color: rgba(0, 0, 255, 0.801);
+    background-color: rgba(0, 217, 255, 0.801);
     color: white;
+
     
 }
 
@@ -117,11 +115,11 @@ div{
 }
 
 #lembrar{
-    color: white;
+    color:black ;
 }
 
 #cad{
-    color: white;
+    color:black ;
     
 }
 
@@ -141,8 +139,3 @@ div{
     font-size: 12px;
 }
 
-footer{
-    text-align: center;
-    margin-bottom: 10px;
-    color: white;
-}
