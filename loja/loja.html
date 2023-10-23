@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja particuly</title>
+
     <link rel="stylesheet" href="./loja.css">
 </head>
 <body onload="reset()">
@@ -22,11 +23,15 @@
             <div  id="compra">
                 0
             </div>
-            <img class = "icones" width="32px" height="32px" src="./asset-loja/carrinho2.png" alt="">
+            <img id="carrinho" class = "icones" width="32px" height="32px" src="./asset-loja/carrinho2.png" alt="">
             <img onclick="aba()" ondblclick="aparece()"  class="icones" src="./asset-loja/barra.png" alt="">
  
         </ul>
     </nav>
+
+    
+      <h1 id="separar1">calçados</h1>
+    
 
     <section  id="aba">
       <div class="abas">
@@ -43,30 +48,72 @@
     </section>
 
     <section>
-      <div class="produto1">
+      <div class="tênis">
       <img width = "280px" height="235px" src="./asset-loja/tenis1.png.jpg" alt=""> <br>
-      <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+      <p>Tênis addidas social.</p>
+
+      <p>R$ 219,90</p>
       <button onclick="comprar()">Comprar</button>
       </div>
 
-      <div class="produto2">
+      <div class="tênis">
       <img width = "280px" height="232px" src="./asset-loja/tenis2.png.jpg" alt=""><br>
-      <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+      <p>tênis all star branco</p>
+      <p>R$ 139,90</p>
       <button onclick="comprar()" >Comprar</button>
       </div>
 
-      <div class="produto3">
+      <div class="tênis">
         <img width = "280px" height="232px" src="./asset-loja/tenis3.png.jpg" alt=""> <br>
-        <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        <p>tenis nike confort</p>
+        <p> R$ 249,90</p>
         <button onclick="comprar()" >Comprar</button>
       </div>
 
-      <div class="produto4">
-        <img width = "280px" height="232px" src="./asset-loja/tenis1.png.jpg" alt=""> <br>
-        <p>tenis alstar ultima edição como 30% porcento de desconto so hojeaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-        <button>Comprar</button>
+      <div class="tênis">
+        <img width = "280px" height="232px" src="./asset-loja/tenis4.png.jpg" alt=""> 
+        <p>tênis para academia</p>
+        <p> R$ 99,90</p>
+        <button onclick="comprar()">Comprar</button>
       </div>
     </section>
+
+    <h1 id="separar2">Camisas</h1>
+
+    <section id="camisas">
+
+      <div class="camisas">
+        <img width = "280px" height="235px" src="./asset-loja/camisa1.png" alt=""> 
+         <p>camisa esportiva</p>
+         <p>R$ 59,90</p>
+         
+      <button onclick="comprar()" >Comprar</button>
+      </div>
+
+      <div class="camisas">
+        <img width = "280px" height="235px" src="./asset-loja/camisa2.png" alt=""> 
+        <p>camisa branca</p>
+         <p>R$ 39,90</p>
+      <button onclick="comprar()" >Comprar</button>
+      </div>
+
+      <div class="camisas"">
+        <img width = "280px" height="235px" src="./asset-loja/camisa3.png" alt=""> <br>
+        <p>camisa preta</p>
+         <p>R$ 39,90</p>
+      <button onclick="comprar()" >Comprar</button>
+      </div>
+
+      <div class="camisas">
+        <img width = "280px" height="232px" src="./asset-loja/camisa4,png.jpg" alt=""> <br>
+        <p>camisa polo</p>
+         <p>R$ 99,90</p>
+      <button onclick="comprar()" >Comprar</button>
+      </div>
+
+    </section>
+
+    
      
     <script src="./loja.js"></script>
 </body>
