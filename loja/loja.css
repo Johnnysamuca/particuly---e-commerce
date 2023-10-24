@@ -30,33 +30,7 @@ body {
     
    }
 
-
-#separar1 {
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 20px;
-    position: absolute;
-    z-index: -1;
-    bottom: 430px;
-    text-align: center;
-    
-}
-
-#separar2{
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    margin-top: 520px;
-    
-}
-
-
-
-
-#Home , a {
+   #Home , a {
     display: flex;
     align-items: center;
     list-style: none;
@@ -67,7 +41,28 @@ body {
 
 }
 
-#compra{
+#loja h1 {
+    margin-left: 10px;
+    color: black;
+
+}
+
+.icones{
+    margin: 0px 10px;  
+  }
+  
+  
+  #carrinho{
+    margin-right: 60px;
+  }
+  
+  .icones:hover{
+      background-color: grey;
+      border-radius: 5px;
+      padding: 5px;
+  }
+
+  #compra{
     background-color: black;
     color: white;
     padding: 4px;
@@ -80,32 +75,7 @@ body {
 }
 
 
-
-.icones{
-  margin: 0px 10px;  
-}
-
-
-#carrinho{
-  margin-right: 60px;
-}
-
-.icones:hover{
-    background-color: grey;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-
-
-
-#loja h1 {
-    margin-left: 10px;
-    color: black;
-
-}
-
-#aba{
+  #aba{
     display: flex;
     flex-direction: column;
     float: right;
@@ -140,6 +110,19 @@ body {
 }
 
 
+
+#separar1 {
+    background-color: rgb(98, 0, 255);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    z-index: -1;
+    bottom: 430px;
+    text-align: center;
+    
+}
+
 section{
     display: flex;
     padding: 10px;
@@ -170,6 +153,21 @@ section{
     
 }
 
+
+
+
+
+#separar2{
+    background-color: rgb(98, 0, 255);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 520px;
+    
+}
+
+
 #camisas{
     display: flex;
     padding: 10px;
@@ -180,6 +178,39 @@ section{
 }
 
 .camisas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: 380px;
+    margin-bottom: 30px;
+    align-items: center;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.411);
+    
+}
+
+#separar3{
+    background-color: rgb(98, 0, 255);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+#calças{
+    display: flex;
+    padding: 10px;
+    gap: 60px;
+    height: 410px;
+    position: relative;
+    bottom: 150px;
+}
+
+.calças{
     display: flex;
     flex-direction: column;
     align-items: center;

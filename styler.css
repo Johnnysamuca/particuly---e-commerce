@@ -22,13 +22,13 @@
 
    #Menu {
     
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
     width: 100%;
    
+    
     
   
    }
@@ -66,8 +66,8 @@
    align-items: center;
    margin: 20px ;
    padding: 0px 20px 40px 20px;
-   background-color:white ;
-   color: black;
+   background-color: rgb(98, 0, 255);
+   color: white;
 }
 
 #tênis, img {
@@ -75,6 +75,16 @@
     margin-right: 20px;
     float: left;
     
+}
+
+#camisa{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px ;
+   padding: 0px 20px 40px 20px;
+   background-color: rgb(98, 0, 255);
+   color: white;
 }
 
 #logo {
@@ -88,45 +98,6 @@
 
 
 
-#mvv {
-    display: flex;
-    justify-content: space-between;
-    background-color:white;
-    margin: 200px 20px;
-    height: 400px;
-    padding: 20px;
-    color: black;
-}
-
-.missao {
-    width: 340px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-}
-
-.visao {
-    width: 340px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-
-}
-
-.valores {
-    width: 340px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-    
-
-}
 
 
 /* Smartphones (600px para baixo) */
