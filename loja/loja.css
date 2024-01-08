@@ -147,7 +147,11 @@ section{
     margin-bottom: 30px;
     align-items: center;
     color: black;
-    background-color: rgba(128, 128, 128, 0.411);
+    /*background-color: rgba(128, 128, 128, 0.411);*/
+    font-size: 19px;
+    font-weight: bold;
+    
+    
     
     
     
@@ -187,7 +191,9 @@ section{
     margin-bottom: 30px;
     align-items: center;
     color: black;
-    background-color: rgba(128, 128, 128, 0.411);
+    /*background-color: rgba(128, 128, 128, 0.411);*/
+    font-size: 19px;
+    font-weight: bold;
     
 }
 
@@ -220,7 +226,9 @@ section{
     margin-bottom: 30px;
     align-items: center;
     color: black;
-    background-color: rgba(128, 128, 128, 0.411);
+    /*background-color: rgba(128, 128, 128, 0.411);*/
+    font-size: 19px;
+    font-weight: bold;
     
 }
 
@@ -228,12 +236,16 @@ button{
     display: block;
     padding: 6px;
     width: 150px;
-    background-color: rgb(0, 255, 136);
+    background-color: black;
     margin-top: 10px;
+    color: #ffff;
     border: 2px solid black;
-    
-    
-    
+    font-size: 16px;
+      
+}
+
+button:hover{
+  box-shadow: 2px 2px red;
 }
 
 

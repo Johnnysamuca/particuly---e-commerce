@@ -1,19 +1,18 @@
 function Entrar(){
  let email = document.getElementById('mail')
  let senha = document.getElementById('senha')
- let msgE = document.getElementById('erroE')
- let msgS = document.getElementById('erroS')
 
- 
- msgS.innerHTML = ''
- msgE.innerHTML = ''
- if (email.value == 0 ){
-    msgE.innerHTML = ('* Campo vazio')
-    
+ if (email.value === 0 ){
+
+    email.placeholder = '*Campo vazio'
+
+    email.style.border = '2px solid red'
+
     }else if(senha.value == 0 || senha.length > 6 ){
 
-      msgS.innerHTML = ('* Erro campo vazio ou execdeu o limite de digitos')
+      senha.placeholder = '*Campo vazio ou valor acima do limite'
       
+      senha.style.border = '2px solid red'
     }else{
       
     }
